@@ -50,7 +50,7 @@ int main()
 		{
 			virtualviaReference(*(employee[i]));
 		}
-		/*Manipulation*/
+		/*Manipulation Using euntime type information(RTTI)*/
 		vector<Employee *> newemployee(3);
 		newemployee[0] = new SalariedEmployee("John", "Smith", "111-11-1111", 800);
 		newemployee[1] = new CommissionEmployee("Sue", "Jones", "333-33-3333", 10000, 0.06);
